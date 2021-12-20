@@ -1,0 +1,54 @@
+.modal {
+  display: none;
+  position: fixed;
+  top: 10vh;
+  z-index: 1;
+  height: 80vh;
+  width: 90vw;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow-y: auto;
+  left: 5%;
+
+  &__content {
+    position: relative;
+    padding: 1.5rem;
+  }
+
+  &__header {
+    display: flex;
+    align-items: first baseline;
+    column-gap: 0.5rem;
+  }
+
+  &__close {
+    position: absolute;
+    top: 27px;
+    right: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__close:hover svg {
+    path {
+      opacity: 0.8;
+    }
+  }
+
+  &.active {
+    display: block;
+  }
+
+  &.inactive {
+    display: none;
+  }
+
+  @include mq(medium) {
+    &__content {
+      padding: 3rem;
+    }
+  }
+}
+
+// card modal

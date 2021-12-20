@@ -1,0 +1,8 @@
+@mixin padding-side {
+  padding-left: 24px;
+  padding-right: 24px;
+  @include mq(medium) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}

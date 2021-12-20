@@ -1,0 +1,68 @@
+//Button
+.btn {
+  & {
+    width: 157px;
+    height: 56px;
+    border-radius: 2rem;
+    display: inline-block;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    transition: 0.2s;
+    vertical-align: middle;
+    font-size: 0.875rem;
+  }
+
+  &--primary {
+    color: $clr-white;
+    background-color: $clr-primary-1;
+    &:hover {
+      background-color: $clr-primary-2;
+    }
+  }
+
+  &__bookmark {
+    position: relative;
+    width: 3.5rem;
+    max-width: 12rem;
+    background-color: revert;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    p {
+      color: transparent;
+      font-weight: $fw-700;
+      margin: 0;
+    }
+  }
+  // open/clsed
+  &_size_l {
+    max-width: 214px;
+  }
+
+  &__bookmark.active svg {
+    circle {
+      fill: $clr-primary-2;
+    }
+    path {
+      fill: $clr-white;
+    }
+  }
+
+  &_size_s {
+    font-size: 0.875rem;
+  }
+
+  @include mq(medium) {
+    &__bookmark {
+      width: 100%;
+      text-indent: 2.5rem;
+      color: revert;
+
+      p {
+        color: revert;
+      }
+    }
+  }
+}

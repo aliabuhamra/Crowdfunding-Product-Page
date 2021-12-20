@@ -1,0 +1,31 @@
+.hamburger {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  &__toggle-nav {
+    opacity: 1;
+    transform: scale(0);
+    transition-property: transform, opacity;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    z-index: 2;
+  }
+
+  & svg {
+    cursor: pointer;
+  }
+
+  &__close {
+    position: absolute;
+    left: 0.6px;
+  }
+
+  &__toggle-nav.active {
+    transform: scale(1);
+  }
+
+  @include mq(medium) {
+    display: none;
+  }
+}

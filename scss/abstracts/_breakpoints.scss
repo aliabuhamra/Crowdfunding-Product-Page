@@ -1,0 +1,15 @@
+// Screen break-points
+@use "breakpoints";
+$breakpoints: (
+  small: 48em,
+  medium: 65em,
+);
+
+// Media Query
+@mixin mq($key) {
+  $size: map-get($breakpoints, $key);
+
+  @media only screen and (min-width: $size) {
+    @content;
+  }
+}

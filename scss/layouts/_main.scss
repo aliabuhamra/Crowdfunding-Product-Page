@@ -1,0 +1,119 @@
+// Master Header
+.main {
+  @include padding-side;
+  max-width: 730px;
+  margin: 0 auto;
+}
+
+.mastercraft {
+  background: $clr-white;
+  border-radius: 8px;
+  @include padding-side;
+}
+
+.mastercraft-header {
+  & {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -2rem;
+    text-align: center;
+    padding-bottom: clamp(2.5rem, 5vw, 3rem);
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    background: url(../../images/logo-mastercraft.svg) no-repeat;
+    width: 3.5rem;
+    height: 3.5rem;
+    top: -1.75rem;
+  }
+
+  &__btns {
+    display: flex;
+    justify-content: center;
+    column-gap: 0.5rem;
+  }
+
+  &__btns svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &__btns svg {
+    path {
+      fill: #b1b1b1;
+    }
+  }
+
+  @include mq(medium) {
+    &__btns {
+      justify-content: space-between;
+    }
+  }
+}
+
+// Stock
+.mastercraft-stock {
+  padding-bottom: 3rem;
+  margin-bottom: 1.5rem;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+  }
+
+  &__list li {
+    color: $clr-neutral-1;
+    text-align: center;
+  }
+
+  &__list li span {
+    &:first-of-type {
+      font-size: 2rem;
+      font-weight: $fw-700;
+    }
+
+    &:first-of-type::after {
+      content: "\A";
+      white-space: pre;
+    }
+
+    &:last-of-type {
+      font-size: 0.875rem;
+      font-weight: $fw-400;
+      color: $clr-neutral-2;
+    }
+  }
+
+  &__divr {
+    width: 80px;
+  }
+
+  @include mq(medium) {
+    &__list {
+      flex-direction: row;
+      justify-content: flex-start;
+      column-gap: 3rem;
+    }
+
+    &__list li {
+      text-align: start;
+    }
+
+    &__divr {
+      width: 1px;
+      height: 80px;
+    }
+  }
+}
+
+.mastercraft-about {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}

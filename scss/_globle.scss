@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: inherit;
+}
+
+main {
+  @include padding-side;
+}
+
+.page {
+  @include padding-side;
+}
+
+ul,
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,29 @@
+// Header
+.header {
+  &__cover {
+    padding-top: clamp(2rem, 5vw, 3rem);
+    height: clamp(16.25rem, 28vw, 25rem);
+    background-image: url(../../images/image-hero-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__content {
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  & svg {
+    cursor: pointer;
+  }
+
+  @include mq(medium) {
+    &__cover {
+      background-image: url(../../images/image-hero-desktop.jpg);
+    }
+  }
+}
