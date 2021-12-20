@@ -1,4 +1,4 @@
-# Blogr landing page
+# Crowdfunding-Product-Page
 
 ![github repo size](https://img.shields.io/github/repo-size/aliabuhumra/Crowdfunding-Product-Page)
 ![github contributors](https://img.shields.io/github/contributors/aliabuhumra/Crowdfunding-Product-Page)
