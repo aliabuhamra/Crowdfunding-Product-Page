@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/blogr-landing-page-F6j01_S9B)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/crowdfunding-product-page-bMnf7HHXJ)
 - Live Site URL: [Live site URL](https://aliabuhumra.github.io/Crowdfunding-Product-Page/)
 
 ## My process
