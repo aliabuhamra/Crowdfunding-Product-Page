@@ -1,7 +1,7 @@
-# Blogr landing page
+# Crowdfunding-Product-Page
 
-![github repo size](https://img.shields.io/github/repo-size/aliabuhumra/Blogr-landing-page-2)
-![github contributors](https://img.shields.io/github/contributors/aliabuhumra/Blogr-landing-page-2)
+![github repo size](https://img.shields.io/github/repo-size/aliabuhumra/Crowdfunding-Product-Page)
+![github contributors](https://img.shields.io/github/contributors/aliabuhumra/Crowdfunding-Product-Page)
 ![github twiter](https://img.shields.io/twitter/follow/AliAbuhumra?style=social)
 
 ## Welcome! 👋
@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/blogr-landing-page-F6j01_S9B)
-- Live Site URL: [Live site URL](https://aliabuhumra.github.io/Blogr-landing-page-2/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/crowdfunding-product-page-bMnf7HHXJ)
+- Live Site URL: [Live site URL](https://aliabuhumra.github.io/Crowdfunding-Product-Page/)
 
 ## My process
 
@@ -44,14 +44,14 @@ Users should be able to:
 - BEM
 - CSS custom properties
 - Flexbox
-- Vanilla JS for mobile navigation toggle
+- scrollintoview method 
 
 ### What I learned
 
-- I learned about of the flex grow and flex shrink
-- I learned about of the menu drop
-- specificity in css
-- The dropdown menu is the highlight of my learning while working through this project.
+- Writing codes in an organized manner javascript vanila
+- show the modal and add some activity
+- scrollintoview selected elements animation
+
 
 ## Author
 
