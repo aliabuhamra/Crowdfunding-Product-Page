@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/blogr-landing-page-F6j01_S9B)
-- Live Site URL: [Live site URL](https://aliabuhumra.github.io/Blogr-landing-page-2/)
+- Live Site URL: [Live site URL](https://aliabuhumra.github.io/Crowdfunding-Product-Page/)
 
 ## My process
 
