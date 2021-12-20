@@ -1,7 +1,7 @@
 # Blogr landing page
 
-![github repo size](https://img.shields.io/github/repo-size/aliabuhumra/Blogr-landing-page-2)
-![github contributors](https://img.shields.io/github/contributors/aliabuhumra/Blogr-landing-page-2)
+![github repo size](https://img.shields.io/github/repo-size/aliabuhumra/Crowdfunding-Product-Page)
+![github contributors](https://img.shields.io/github/contributors/aliabuhumra/Crowdfunding-Product-Page)
 ![github twiter](https://img.shields.io/twitter/follow/AliAbuhumra?style=social)
 
 ## Welcome! 👋
