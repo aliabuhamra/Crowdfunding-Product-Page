@@ -44,14 +44,14 @@ Users should be able to:
 - BEM
 - CSS custom properties
 - Flexbox
-- Vanilla JS for mobile navigation toggle
+- scrollintoview method 
 
 ### What I learned
 
-- I learned about of the flex grow and flex shrink
-- I learned about of the menu drop
-- specificity in css
-- The dropdown menu is the highlight of my learning while working through this project.
+- Writing codes in an organized manner javascript vanila
+- show the modal and add some activity
+- scrollintoview selected elements animation
+
 
 ## Author
 
