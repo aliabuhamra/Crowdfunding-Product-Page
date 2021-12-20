@@ -482,7 +482,7 @@ Files inside this folder can contain specific element styles and layout.
 .header__cover {
   padding-top: clamp(2rem, 5vw, 3rem);
   height: clamp(16.25rem, 28vw, 25rem);
-  background-image: url(../../images/image-hero-mobile.jpg);
+  background-image: url(../images/image-hero-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -506,7 +506,7 @@ Files inside this folder can contain specific element styles and layout.
 
 @media only screen and (min-width: 65em) {
   .header__cover {
-    background-image: url(../../images/image-hero-desktop.jpg);
+    background-image: url(../images/image-hero-desktop.jpg);
   }
 }
 
